@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="w-[110px] h-[24px] md:w-[140px] md:h-[36px] flex items-center">
           <img
             loading="lazy"
-            className="w-full h-full object-contain"
+            className="w-full h-full object-contain cursor-pointer"
             src={logo}
             alt="Logo"
           />
@@ -56,7 +56,7 @@ const Navbar = () => {
 
         {/* Hamburger menu (mobile) */}
         <div className="lg:hidden flex items-center">
-          <button onClick={() => setIsOpen(!isOpen)}>
+          <button className="cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? (
               <X className="text-white w-6 h-6" />
             ) : (
@@ -73,7 +73,9 @@ const Navbar = () => {
                 key={link.id}
                 to={`/${link.id}`}
                 className={({ isActive }) =>
-                  `px-2 font-urbanist ${isActive ? "text-[#00FFF2]" : ""}`
+                  `px-2 font-urbanist cursor-pointer ${
+                    isActive ? "text-[#00FFF2]" : ""
+                  }`
                 }
                 onClick={() => handleNav(link.id)}
               >
@@ -83,7 +85,7 @@ const Navbar = () => {
               <Link
                 key={link.id}
                 to={`/#${link.id}`}
-                className={`px-2 font-urbanist ${
+                className={`px-2 font-urbanist cursor-pointer ${
                   currentSection === link.id ? "text-[#00FFF2]" : ""
                 }`}
                 onClick={() => handleNav(link.id)}
@@ -127,7 +129,9 @@ const Navbar = () => {
                   key={link.id}
                   to={`/${link.id}`}
                   className={({ isActive }) =>
-                    `px-2 font-urbanist ${isActive ? "text-[#00FFF2]" : ""}`
+                    `px-2 font-urbanist cursor-pointer ${
+                      isActive ? "text-[#00FFF2]" : ""
+                    }`
                   }
                   onClick={() => handleNav(link.id)}
                 >
@@ -137,7 +141,7 @@ const Navbar = () => {
                 <Link
                   key={link.id}
                   to={`/#${link.id}`}
-                  className={`px-2 font-urbanist ${
+                  className={`px-2 font-urbanist cursor-pointer ${
                     currentSection === link.id ? "text-[#00FFF2]" : ""
                   }`}
                   onClick={() => handleNav(link.id)}
