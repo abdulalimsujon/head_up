@@ -152,6 +152,81 @@ const FAQ = () => {
                 sound engineering and live-streaming.
               </AccordionContent>
             </AccordionItem>
+            <AccordionItem
+              value="item-6"
+              className="py-4 !border-b !border-[#E9EAEA]"
+            >
+              <AccordionTrigger className="text-[#515756] data-[state=open]:text-[#8200FF] font-playfair text-xl md:text-[26px] lg:text-[30px] font-semibold leading-[150%] flex items-center justify-start">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 12 11"
+                  fill="none"
+                  className="mr-2"
+                >
+                  <path
+                    d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z"
+                    fill="#00E8DC"
+                  />
+                </svg>
+                How do I book?
+              </AccordionTrigger>
+              <AccordionContent className="text-[#515756] font-urbanist md:text-[18px] lg:text-[22px] font-light leading-[160%]">
+                Just DM us or tap 'Contact' in our bio. We'll check available
+                time slots and help you schedule your session!
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem
+              value="item-7"
+              className="py-4 !border-b !border-[#E9EAEA]"
+            >
+              <AccordionTrigger className="text-[#515756] data-[state=open]:text-[#8200FF] font-playfair text-xl md:text-[26px] lg:text-[30px] font-semibold leading-[150%] flex items-center justify-start">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 12 11"
+                  fill="none"
+                  className="mr-2"
+                >
+                  <path
+                    d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z"
+                    fill="#00E8DC"
+                  />
+                </svg>
+                Will someone help me during the session?
+              </AccordionTrigger>
+              <AccordionContent className="text-[#515756] font-urbanist md:text-[18px] lg:text-[22px] font-light leading-[160%]">
+                Yes – our team is always on site. We'll help with camera, sound,
+                and make sure everything runs smoothly.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem
+              value="item-8"
+              className="py-4 !border-b !border-[#E9EAEA]"
+            >
+              <AccordionTrigger className="text-[#515756] data-[state=open]:text-[#8200FF] font-playfair text-xl md:text-[26px] lg:text-[30px] font-semibold leading-[150%] flex items-center justify-start">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 12 11"
+                  fill="none"
+                  className="mr-2"
+                >
+                  <path
+                    d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z"
+                    fill="#00E8DC"
+                  />
+                </svg>
+                It's my first time – is that okay?
+              </AccordionTrigger>
+              <AccordionContent className="text-[#515756] font-urbanist md:text-[18px] lg:text-[22px] font-light leading-[160%]">
+                Absolutely. Many of our clients are recording for the first
+                time. We'll guide you through it from start to finish.
+              </AccordionContent>
+            </AccordionItem>
           </Accordion>
         </div>
       </div>
